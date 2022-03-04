@@ -1,25 +1,8 @@
 from selenium import webdriver
 import requests
 import time
-from bs4 import BeautifulSoup
 import re
 from fake_useragent import UserAgent
-import random
-
-ua = UserAgent()
-
-def proxyGenerator():
-    headers = {'user-agent':ua.random}
-    res = requests.get('https://free-proxy-list.net/',headers = headers)
-    soup =BeautifulSoup(res.text,'lxml')
-    proxies_table = soup.find(id='list')
-    proxies = []
-    for row in proxies_table.tbody.find_all('tr'):
-        proxies.append({
-            'http': "http://" + row.find_all('td')[0].string +":"+row.find_all('td')[1].string,
-            'https':"https://"+row.find_all('td')[0].string + ":" + row.find_all("td")[1].string
-        })
-    return random.choice(proxies)
 
 option = webdriver.ChromeOptions()
 option.add_experimental_option("detach",True)
@@ -42,15 +25,19 @@ driver.get('https://www.pixiv.net/ranking.php/')
 # time.sleep(3)
 
 
-info = re.findall(r'/artworks/\d*',driver.page_source)
+ua = UserAgent()
 count = 0 
 picpath = './data/'
+
+info = re.findall(r'/artworks/\d*',driver.page_source)
 info = info[::2]
 for url in info:
     print(url)
     print("http://www.pixiv.net"+url)
     r = requests.get("http://www.pixiv.net"+url)
+    
     u = re.findall(r'https://i.pximg.net/img-original/img.*?g',r.text)
+    
     print(u)
     print(u[0])
     try:
