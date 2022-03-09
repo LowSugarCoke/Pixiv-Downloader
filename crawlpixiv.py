@@ -6,13 +6,19 @@ from fake_useragent import UserAgent
 import os
 
 #turn on page
-option = webdriver.ChromeOptions()
-option.add_experimental_option("detach",True)
-driver = webdriver.Chrome(options=option)
-driver.get('https://www.pixiv.net/ranking.php/') 
+# option = webdriver.ChromeOptions()
+# option.add_experimental_option("detach",True)
+# driver = webdriver.Chrome(options=option)
+# driver.get('https://www.pixiv.net/ranking.php/') 
+
+web_page =  requests.get('https://www.pixiv.net/ranking.php/')
+
+if web_page!=200:
+    print("error")
+
 
 #Get date
-date = re.findall(r'\[\w+\.\w+\.\w+\]',driver.page_source)
+date = re.findall(r'\[\w+\.\w+\.\w+\]',web_page.text)
 date = date[0]
 date = date.strip('[').strip(']')
 print(date)
@@ -24,7 +30,7 @@ count = 0
 picpath = './data/'+date
 
 #Get image name
-name = re.findall(r'"noopener">.*?>',driver.page_source)
+name = re.findall(r'"noopener">.*?>',web_page.text)
 name=name[1:51]
 for i in range(0,len(name)):
     name[i] = name[i].strip('"noopener">').strip('</a>')
@@ -32,7 +38,7 @@ print(name)
 
 
 # Get image url
-info = re.findall(r'/artworks/\d*',driver.page_source)
+info = re.findall(r'/artworks/\d*',web_page.text)
 info = info[::2]
 for url in info:
     print(url)
