@@ -2,9 +2,8 @@
 <img target = "banner" src="https://raw.githubusercontent.com/LowSugarCoke/Pixiv-Downloader/main/img/banner.png?token=GHSAT0AAAAAABPJ4I5LG5EYJRNGXMT256A4YRNRMUA">
 </p>
 <p align=center>
-    <a target="badge" href="https://github.com/LowSugarCoke/Pixiv-Downloader/blob/main/img/banner.png" title="python version"><img src="https://img.shields.io/badge/python-v3.9.7-brightgreen"></a>
-<p align=center>
-    <a target="badge" href="https://github.com/LowSugarCoke/Pixiv-Downloader/blob/main/img/banner.png" title="python version"><img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"></a>  
+<a target="badge" href="https://github.com/LowSugarCoke/Pixiv-Downloader/blob/main/img/banner.png" title="python version"><img src="https://img.shields.io/badge/python-v3.9.7-brightgreen"></a>
+<a target="badge" href="https://github.com/LowSugarCoke/Pixiv-Downloader/blob/main/img/banner.png" title="python version"><img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"></a>  
 </p>
 
 >Download the top 50 images on Pixiv every day and enjoy high-resolution images. Best pixiv downloader to share with you.
