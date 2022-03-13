@@ -1,9 +1,9 @@
-<p align=center>
+<center>
 ![banner](https://github.com/LowSugarCoke/Pixiv-Downloader/blob/main/img/banner.png)
-</p>
-<p align=center>
+</center>
+<center>
 ![badge](https://img.shields.io/badge/python-v3.9.7-brightgreen)
-</p>
+</center>
 #introduction
 
 #Install
