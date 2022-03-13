@@ -26,7 +26,6 @@ $ git clone https://github.com/LowSugarCoke/Pixiv-Downloader.git
 ## Usage
 ### Visual Studio Code
 Download VSCode https://code.visualstudio.com/
-
 Download python https://www.python.org/
 
 After installing VScode and Python, download the extension in VSCode as follow:
