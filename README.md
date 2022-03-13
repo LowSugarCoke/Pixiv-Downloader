@@ -3,6 +3,8 @@
 </p>
 <p align=center>
     <a target="badge" href="https://github.com/LowSugarCoke/Pixiv-Downloader/blob/main/img/banner.png" title="python version"><img src="https://img.shields.io/badge/python-v3.9.7-brightgreen"></a>
+<p align=center>
+    <a target="badge" href="https://github.com/LowSugarCoke/Pixiv-Downloader/blob/main/img/banner.png" title="python version"><img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"></a>  
 </p>
 
 >Download the top 50 images on Pixiv every day and enjoy high-resolution images. Best pixiv downloader to share with you.
@@ -26,6 +28,7 @@ $ git clone https://github.com/LowSugarCoke/Pixiv-Downloader.git
 ## Usage
 ### Visual Studio Code
 Download VSCode https://code.visualstudio.com/
+
 Download python https://www.python.org/
 
 After installing VScode and Python, download the extension in VSCode as follow:
