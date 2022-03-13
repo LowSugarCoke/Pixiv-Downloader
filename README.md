@@ -1,5 +1,4 @@
-![banner](https://raw.githubusercontent.com/LowSugarCoke/Crawl-Pixiv/main/img/banner.png?token=GHSAT0AAAAAABPJ4I5KOVBSJJI5HNUGCHLKYRNQQZA)
-
+![banner](https://github.com/LowSugarCoke/Pixiv-Downloader/blob/main/img/banner.png)
 ![badge](https://img.shields.io/badge/python-v3.9.7-brightgreen)
 
 #introduction
