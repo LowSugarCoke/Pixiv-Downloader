@@ -4,7 +4,11 @@
 <p align=center>
     <a target="badge" href="https://github.com/LowSugarCoke/Pixiv-Downloader/blob/main/img/banner.png" title="python version"><img src="https://img.shields.io/badge/python-v3.9.7-brightgreen"></a>
 </p>
-#introduction
+
+Download the top 50 images on Pixiv every day and enjoy high-resolution images. Best pixiv downloader to share with you.
+
+All images comes from https://www.pixiv.net/ranking.php/
+
 
 #Install
 
