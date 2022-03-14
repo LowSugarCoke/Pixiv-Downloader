@@ -13,7 +13,7 @@ All images comes from https://www.pixiv.net/ranking.php/
 # Install
 ## Release 
 Download exe as below:
-
+https://github.com/LowSugarCoke/Pixiv-Downloader/releases/tag/v1.0.0
 
 ## Download source code
 In order to use pixiv-downloader, make sure that you have python 3.9.7 and python packages as below:
