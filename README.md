@@ -10,23 +10,33 @@
 
 All images comes from https://www.pixiv.net/ranking.php/
 
-# Install
-## Release 
-Download exe as below:
+## Install
 
-https://github.com/LowSugarCoke/Pixiv-Downloader/releases/tag/v1.0.0
-
-## Download source code
-In order to use pixiv-downloader, make sure that you have python 3.9.7 and python packages as below:
-* requests 2.26.0
-* tqdm 4.63.0
-* pyinstaller 4.10
-
+1. create a Python virtual environment
 ```
-$ git clone https://github.com/LowSugarCoke/Pixiv-Downloader.git
+python -m venv pixiv-downloader-env
 ```
+2. activate this environment, on Linux or MacOS
+```
+source pixiv-downloader-env/bin/activate
+```
+or on Windows
+```
+.\pixiv-downloader-env\Scripts\activate
+```
+3. install the project dependencies
+```
+pip install -r requirements.txt
+```
+
 ## Usage
-### Visual Studio Code
+
+1. Run this script from command line without arguments to use the default keywords:
+```
+python main.py
+```
+
+2. Visual Studio Code
 Download VSCode https://code.visualstudio.com/
 
 Download python https://www.python.org/
@@ -41,5 +51,5 @@ Done it and Run code
 ### Build exe
 Using terminal and pyinstaller to build exe
 ```
-$ pyinstaller -F pixiv_downloader.py -c --icon=logo.ico
+$ pyinstaller -F main.py -c --icon=logo.ico
 ```
