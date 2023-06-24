@@ -1,5 +1,5 @@
 <p align=center>
-<img target = "banner" src="https://raw.githubusercontent.com/LowSugarCoke/Pixiv-Downloader/main/img/banner.png?token=GHSAT0AAAAAABPJ4I5LG5EYJRNGXMT256A4YRNRMUA">
+<img target = "banner" src="https://raw.githubusercontent.com/LowSugarCoke/pixiv-downloader/main/img/banner.png">
 </p>
 <p align=center>
 <a target="badge" href="https://github.com/LowSugarCoke/Pixiv-Downloader/blob/main/img/banner.png" title="python version"><img src="https://img.shields.io/badge/python-v3.9.7-brightgreen"></a>
